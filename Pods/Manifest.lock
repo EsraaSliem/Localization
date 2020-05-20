@@ -1,0 +1,16 @@
+PODS:
+  - MOLH (1.0)
+
+DEPENDENCIES:
+  - MOLH
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MOLH
+
+SPEC CHECKSUMS:
+  MOLH: 2492e7f8fe3400580832312dc0fb9e05d7e92726
+
+PODFILE CHECKSUM: d5d0e746dd8ceba03f407d479bca9377de84ec4a
+
+COCOAPODS: 1.7.5

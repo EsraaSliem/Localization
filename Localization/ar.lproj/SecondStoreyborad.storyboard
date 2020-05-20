@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LfD-SS-6EO">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Yn8-Q8-kbC">
+            <objects>
+                <viewController storyboardIdentifier="vc" id="LfD-SS-6EO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SE8-lj-hDB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6E-Y0-f58">
+                                <rect key="frame" x="215" y="141" width="100" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="8OU-4E-pPK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w9I-ek-gUz">
+                                <rect key="frame" x="318" y="259" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FxA-vu-IMb" firstAttribute="trailing" secondItem="w9I-ek-gUz" secondAttribute="trailing" constant="50" id="9Sy-sl-xB3"/>
+                            <constraint firstItem="w9I-ek-gUz" firstAttribute="top" secondItem="k6E-Y0-f58" secondAttribute="bottom" constant="97" id="X2f-ak-oN5"/>
+                            <constraint firstItem="FxA-vu-IMb" firstAttribute="trailing" secondItem="k6E-Y0-f58" secondAttribute="trailing" constant="99" id="b3v-2D-mqY"/>
+                            <constraint firstItem="k6E-Y0-f58" firstAttribute="top" secondItem="FxA-vu-IMb" secondAttribute="top" constant="97" id="eEe-5g-fDS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FxA-vu-IMb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ecU-lf-fLg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="217" y="56"/>
+        </scene>
+    </scenes>
+</document>

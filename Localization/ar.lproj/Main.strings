@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "EoM-Ch-xfA"; */
+"EoM-Ch-xfA.normalTitle" = "lang";
+
+/* Class = "UIButton"; normalTitle = "login"; ObjectID = "pXj-ao-fV5"; */
+"pXj-ao-fV5.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UILabel"; text = "Welcome "; ObjectID = "q4J-kH-S0v"; */
+"q4J-kH-S0v.text" = "مرحبا";

@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Localization
+
+  Created by Esraa Abd-elrazek on 11/6/19.
+  Copyright © 2019 Esraa Abd-elrazek. All rights reserved.
+*/
+"Error" = "خطآ";
+"msg" = "مرحبا";
+"yes" = "موافق";
+"No" = "غير موافق";
+"btnLang" = "English";
